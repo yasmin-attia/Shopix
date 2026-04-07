@@ -1,3 +1,42 @@
-Navbar{
-    Container
+#icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+#banner {
+  /* background-image: url(../assets/OIP.WEBP); */
+  width: 100%;
+  height: 60vh;
+  background-attachment: fixed;
+  background-color: #001d3d;
+  display: flex;
+  justify-content: space-around;
+}
+#text {
+  padding-top: 40px;
+  width: 450px;
+  color: white;
+}
+#image{
+    margin-top: 10px;
+ width: 300px;
+ height: 300px;
+ border: .5px solid rgb(223, 209, 209) ;
+}
+footer{
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(225, 218, 218);
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  h1{
+    color: #001d3d;
+  }
+  h2{
+    color: #001d3d;
+  }
+  h3{
+    color: #001d3d;
+  }
 }
