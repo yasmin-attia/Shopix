@@ -36,6 +36,7 @@ export default function NavBar() {
                 <Button className="btn-light" as={Link} to="/Register">
                   Register
                 </Button>
+                <button className="btn me" disabled as={Link} to="/Profile">ME</button>
               </div>
             </Navbar.Collapse>
           </div>

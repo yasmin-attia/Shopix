@@ -17,26 +17,84 @@
   width: 450px;
   color: white;
 }
-#image{
-    margin-top: 10px;
- width: 300px;
- height: 300px;
- border: .5px solid rgb(223, 209, 209) ;
+#image {
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+  border: 0.5px solid rgb(223, 209, 209);
 }
-footer{
+footer {
   width: 100%;
   height: 25vh;
   background-color: rgb(225, 218, 218);
   display: flex;
   padding-top: 30px;
   justify-content: space-around;
-  h1{
+  h1 {
     color: #001d3d;
   }
-  h2{
+  h2 {
     color: #001d3d;
   }
-  h3{
+  h3 {
     color: #001d3d;
+  }
+}
+.me {
+  color: #001d3d;
+}
+/* profile page */
+#header {
+  display: flex;
+  justify-content: space-between;
+  background-color: ghostwhite;
+  p {
+    padding-top: 10px;
+  }
+  Button {
+    text-align: center;
+  }
+}
+#body {
+  background-color: #001d3d;
+  height: 100vh;
+  color: rgba(255, 255, 255,.8);
+  #tx{
+     padding-left: 10%;
+     padding-top: 100px;
+  
+     p{
+       width: 80%;
+    }
+  }
+  img{
+    padding-top: 90px;
+    width: 500px;
+    height: 60vh;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+  #text {
+    width: 80%;
+  }
+  #image {
+    width: 80%;
+    height: 100px;
+  }
+  #body{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 600px;
+    #tx{
+      padding-top:10px ;
+    }
   }
 }
